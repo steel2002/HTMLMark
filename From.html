@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+  <link rel="stylesheet" href="From.css">
+  <script src="From.js" defer></script>
+</head>
+<body>
+
+
+  <form>
+    <!-- Name -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter password" required>
+    <br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+    <!-- Education -->
+    <label for="education">Education:</label>
+    <select id="education" name="education">
+      <option value="10th">10th</option>
+      <option value="12th">12th</option>
+      <option value="ug">UG</option>
+      <option value="pg">PG</option>
+    </select>
+    <br><br>
+
+    <!-- Address -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40"></textarea>
+    <br><br>
+
+    <!-- File Upload -->
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume">
+    <br><br>
+
+    <!-- Terms -->
+    <input type="checkbox" required> I agree to the terms & conditions
+    <br><br>
+
+    <!-- Submit -->
+    <button type="submit">Submit Application</button>
+  </form>
+
+</body>
+</html>
