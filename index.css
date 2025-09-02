@@ -121,3 +121,12 @@ hr {
 .Discipline1{
     text-align: center;
 }
+.print-button{
+    background-color: #e0934f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
