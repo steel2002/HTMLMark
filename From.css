@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #6a11cb, #a90b5c);
+    background: linear-gradient(135deg, #81d4f5, #5bcade);
     color: #333;
     display: flex;
     justify-content: center;
@@ -25,13 +25,13 @@ body {
 }
 .header h1 {
     font-size: 2rem;
-    color: #2575fc;
+    color:  #81d4f5;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 fieldset {
-    border: 2px solid #2575fc;
+    border: 2px solid  #FF0000;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ fieldset {
 
 legend {
     font-weight: bold;
-    color: #2575fc;
+    color:  #81d4f5;
     padding: 0 10px;
 }
 .form-row,
@@ -73,9 +73,9 @@ select {
 
 input:focus,
 select:focus {
-    border-color: #2575fc;
+    border-color: #81d4f5;
     outline: none;
-    box-shadow: 0 0 5px rgba(37, 117, 252, 0.4);
+    box-shadow: 0 0 5px  #81d4f5;
 }
 
 .button {
@@ -96,7 +96,7 @@ button {
 }
 
 .reset {
-    background: #2765d8;
+    background:  #81d4f5;
     color: white;
 }
 
@@ -105,10 +105,32 @@ button {
 }
 
 .submit {
-    background: #2762d6;
+    background: #81d4f5;
     color: white;
 }
 
 .submit:hover {
     background: #0e9b67;
+}
+.z{
+    color: #FF0000;
+}
+.o{
+    color: 	#009E60;
+}
+.h{
+    color: #0818A8;
+}
+.O{
+    color: yellow;
+}
+.fieldset2{
+  border: 2px solid #009E60;
+
+}
+.fieldset3{
+      border: 2px solid #0818A8;
+}
+.fieldset4{
+    border: 2px solid yellow;
 }
