@@ -10,17 +10,22 @@
 </head>
 <body>
     <div class="header">
+        <form id="registrationForm" onsubmit="return validateRegistration()">
         <div>
             <img src="images.png"  style=" text-align: center; display: inline-block; " width="100px"  >
+            <h2 style=" text-align: center; display: inline-block; margin-left: 100px;">CONTACT INFORMATION</h2>
             <!-- <h1 style="text-align: center;" >
                 <span class="z"><b>Z</b></span>
                 <span class="o"><b>O</b></span>
                 <span class="h"><b>H</b></span>
                 <span class="O"><b>O</b></span>
             </h1> -->
+            <h1>
+
+            </h1>
             <fieldset class="fieldset1">
                 <legend style="color: #FF0000;">Registration</legend>
-                <form>
+                
                     <div class="form-row">
                         <label for="fname">First Name *</label>
                         <input class="text-field" type="text" id="fname" name="fname" placeholder="First Name">
@@ -45,12 +50,12 @@
                             <option value="other">Other</option>
                         </select> -->
                         </div>
-                </form>
+               
             </fieldset>
               <br>
             <fieldset class="fieldset2">
                 <legend style="color: #009E60;">Address Line 1</legend>
-                <form> 
+            
                     <div class="form-row2">
 
                         <label for="address">House No*</label>
@@ -72,12 +77,11 @@
                         <input class="country" type="text" id="country" name="country" placeholder="Country">
 
                     </div>
-                </form>
+               
             </fieldset>
 
             <fieldset class="fieldset3">
                 <legend style="color: #0818A8;">Education Details</legend>
-                <form>
 
                     <div class="form-row3">
                         <label for="qualification">Highest Qualification *</label>
@@ -100,16 +104,13 @@
                         <label for="year">Year of Graduation *</label>
                         <input class="year" type="number" id="year" name="year" placeholder="Year of Graduation">
                        </div>
-                </form>
+               
 
             </fieldset>
 
             <fieldset class="fieldset4">
 
                 <legend style="color: yellow;">Bank Details</legend>
-                
-
-                <form>
                     <div class="form-row4">
                         <label for="account-name">Account Holder Name *</label>
                         <input class="account-name" type="text" id="account-name" name="account-name" placeholder="Account Holder Name">
@@ -127,7 +128,6 @@
                         <input class="branch-name" type="text" id="branch-name" name="branch-name" placeholder="Branch Name">
 
                     </div>
-                </form>
 
             </fieldset>
 
@@ -136,6 +136,7 @@
                 <button class="reset" type="reset">Reset</button>
                 <button class="submit" type="submit">Submit</button>
             </div>
+            </form>
     </div>
 </body>
 </html>
