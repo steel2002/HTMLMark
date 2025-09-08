@@ -3,16 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 body {
-    background: linear-gradient(135deg, #fffef9, #cfcdc8);
+    /* background: linear-gradient(135deg, #fffef9, #cfcdc8); */
     color: #333;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
     padding: 30px;
+    background-image: url(istockphoto-1401721572-612x612.jpg);
+    /* background-repeat: no-repeat; */
+    
+ 
 }
 
 .header {
