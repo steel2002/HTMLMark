@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #81d4f5, #5bcade);
+    background: linear-gradient(135deg, #ecc063, #cfb060);
     color: #333;
     display: flex;
     justify-content: center;
@@ -69,13 +69,6 @@ select {
     border-radius: 6px;
     font-size: 14px;
     transition: all 0.3s ease;
-}
-
-input:focus,
-select:focus {
-    border-color: #81d4f5;
-    outline: none;
-    box-shadow: 0 0 5px  #81d4f5;
 }
 
 .button {
